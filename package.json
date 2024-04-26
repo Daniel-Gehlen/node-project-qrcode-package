@@ -1,0 +1,22 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "A web application for generating customized QR Codes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "QR Code",
+    "generator",
+    "Node.js",
+    "web application"
+  ],
+  "author": "Daniel Gehlen",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "prompt": "^1.0.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
